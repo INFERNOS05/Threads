@@ -55,5 +55,28 @@ The program consists of the following classes:
 2. Run the `Main.java` class to execute the program.
 
 ## Sample Output
+=== Starting Threads ===
+Thread-Class - Count: 1
+Runnable-Interface - Count: 1
+Thread-Class - Count: 2
+Runnable-Interface - Count: 2
+Thread-Class - Count: 3
+Runnable-Interface - Count: 3
+Thread-Class - Count: 4
+Runnable-Interface - Count: 4
+Thread-Class - Count: 5
+Runnable-Interface - Count: 5
+=== All Threads Finished ===
+
+
+## Learning Outcome
+- Understanding of how to manage multiple threads.
+- Differences between extending `Thread` vs implementing `Runnable`.
+
+## Future Improvements (Optional)
+- Add thread priorities.
+- Use a thread pool (`ExecutorService`).
+- GUI-based control for thread execution.
+
 
 
